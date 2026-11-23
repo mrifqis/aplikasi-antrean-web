@@ -1,0 +1,26 @@
+# Konfigurasi dan rahasia lokal
+/config.php
+.env
+.env.*
+!.env.example
+
+# Dependensi dan hasil build opsional
+/vendor/
+/node_modules/
+
+# Data, backup, dan log
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.sql.gz
+*.bak
+/backups/
+/logs/
+
+# Editor dan sistem operasi
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
